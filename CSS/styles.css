@@ -26,6 +26,9 @@ html {
 *::after {
   box-sizing: inherit;
 }
+*:focus {
+  outline: none;
+}
 body {
   margin: 0;
   background-color: var(--background-body);
@@ -456,11 +459,11 @@ ul {
   fill: var(--icon-color);
 }
 .clients-icon-list:hover,
-.clients-icon-list:focus {
+.clients-icon-list:focus-within {
   border: 1px solid var(--accent);
 }
 .clients-icon-list:hover .clients-logo,
-.clients-icon-list:focus .clients-logo {
+.clients-icon-list:focus-within .clients-logo {
   fill: var(--accent);
 }
 /* footer */
