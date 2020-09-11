@@ -713,7 +713,7 @@ ul {
 .img-item:hover .img-hover-text {
   opacity: 1;
   transform: translateY(0);
-  transition: transform 250ms var(--cubic);
+  transition: transform 250z0ms var(--cubic);
 }
 .img-hover-text {
   /* display: block; */
